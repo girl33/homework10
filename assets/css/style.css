@@ -3,8 +3,8 @@
     display: grid;
     grid-gap: 10px;
     margin-top: 50px;
-    grid-template-columns: 450px 450px 450px;
-    grid-template-rows: 1fr 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
                         'img       img     img  '
                         'handbags  watch   shoes';
@@ -39,9 +39,9 @@
 .main{
     display: grid;
     grid-gap: 5px;
-    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 30px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
                         'card1 card2 card3 card4'
                         'card5 card6 card7 card8';
@@ -59,8 +59,8 @@
 }
 .contact-gridbox{
     display: grid;
-    grid-template-columns: 500px 450px 450px;
-    grid-template-rows: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
                         'free number .';
     font-size: 24px;        
@@ -79,8 +79,8 @@
 .box{
     display: grid;
     grid-row: 10px;
-    grid-template-columns: 350px 350px 350px 350px;
-    grid-template-rows: 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas: 
                         'information customer extras account';
     margin-top: 10px;
@@ -100,7 +100,4 @@
 }
 img{
     width: 200px;
-}
-main{
-    margin: 20px auto;
 }
